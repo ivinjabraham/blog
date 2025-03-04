@@ -76,6 +76,12 @@ There seems to be a small mistake in the line "The core is the component that ex
 
 Writing a parallelizable program sounds interesting. Quite easy to demonstrate the effectiveness too.
 
+## 1.4 Operating-System Operations
+
+- What are system daemons?
+- What's a trap?
+- What is multitasking and how is it different from multiprogramming?
+
 ## 1.11 Free and Open-Source Operating Systems
 
 ### 1.11.1 History

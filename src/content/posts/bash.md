@@ -16,8 +16,6 @@ Anyhow, here's the cool stuff with the `!` character:
 
 Note that `!` can also be used as the logical negation operator.
 
-Anyhow, back to the normal stuff
-
 ---
 
 - You can have formatted strings, like in programming languages, with the `$'string'` syntax. For eg., `$'hello, \n world'` will break the familiar phrase into two lines and `$'\a'` will play the alert notification.

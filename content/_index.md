@@ -4,10 +4,8 @@ template = 'home.html'
 [extra]
 lang = 'en'
 
-# Show footer in home page
 footer = true
 
-# If you don't want to display id/bio/avatar, simply comment out that line
 name = "Ivin Joel Abraham"
 id = "ivinjabraham"
 bio = "i do things. sometimes."
@@ -17,12 +15,12 @@ links = [
     { name = "Email", icon = "email", url = "mailto:me@ivinjoelabraham.com" },
 ]
 
-# Show a few recent posts in home page
-recent = false
-recent_max = 15
+recent = true
+recent_max = 5
 recent_more_text = "more »"
 date_format = "%b %-d, %Y"
 +++
+
 {% quote(cite="Lewis Caroll") %}
 Would you tell me, please, which way I ought to go from here?
 

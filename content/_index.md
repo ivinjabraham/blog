@@ -7,8 +7,8 @@ lang = 'en'
 footer = true
 
 name = "Ivin Joel Abraham"
-id = "ivinjabraham"
-bio = "i do things. sometimes."
+id = "ivin"
+bio = "certain of uncertainty."
 links = [
     { name = "GitHub", icon = "github", url = "https://github.com/ivinjabraham" },
     { name = "Twitter", icon = "twitter", url = "https://x.com/ivinjabraham" },

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo rm -rf /var/www/blog.ivinjoelabraham.com/*
+sudo cp -r ./public/* /var/www/blog.ivinjoelabraham.com/

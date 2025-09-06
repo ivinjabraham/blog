@@ -4,12 +4,12 @@
 	<subtitle>things i wrote.</subtitle>
 	<link href="https://blog.ivinjoelabraham.com/posts/feed.xml" rel="self" type="application/atom+xml"/>
     <link href="https://blog.ivinjoelabraham.com/posts/"/>
-	<updated>2025-08-28T00:00:00+00:00</updated>
+	<updated>2025-09-06T00:00:00+00:00</updated>
 	<id>https://blog.ivinjoelabraham.com/posts/feed.xml</id>
 	<entry xml:lang="en">
 		<title>Contributing to kworkflow - GSoC &#x27;25</title>
 		<published>2025-08-28T00:00:00+00:00</published>
-		<updated>2025-08-28T00:00:00+00:00</updated>
+		<updated>2025-09-06T00:00:00+00:00</updated>
 		<link href="https://blog.ivinjoelabraham.com/posts/kworkflow-gsoc/" type="text/html"/>
 		<id>https://blog.ivinjoelabraham.com/posts/kworkflow-gsoc/</id>
 		<content type="html">&lt;p&gt;On the ninth of May, earlier this year, &lt;a href=&quot;&#x2F;gsoc-proposal.pdf&quot;&gt;my proposal&lt;&#x2F;a&gt; to the Linux Foundation for Google Summer of Code got accepted. This post covers what I did before and after I got accepted, my thoughts about the program and tips for future contributors.&lt;&#x2F;p&gt;
@@ -23,14 +23,29 @@
 &lt;p&gt;c. A suitable project&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;I rarely see the final point being mentioned online but I believe it can be the most important factor for getting accepted. More on that later.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;searching-for-organizations&quot;&gt;Searching For Organizations&lt;a class=&quot;zola-anchor&quot; href=&quot;#searching-for-organizations&quot; aria-label=&quot;Anchor link for: searching-for-organizations&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
+&lt;h1 id=&quot;finding-prospective-organizations&quot;&gt;Finding Prospective Organizations&lt;a class=&quot;zola-anchor&quot; href=&quot;#finding-prospective-organizations&quot; aria-label=&quot;Anchor link for: finding-prospective-organizations&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
 &lt;&#x2F;h1&gt;
 &lt;p&gt;We started looking for prospective organizations as early as October. It is important to get familiar with the project as well as the community as soon as possible, especially for complex projects. As our club has a history of contributing to Wikimedia, that was the primary focus for most of the members. I, however, was eager to contribute to the domain I was learning at the time—linux kernel development. The Linux Foundation was the obvious choice.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;finding-prospective-organizations&quot;&gt;Finding Prospective Organizations&lt;a class=&quot;zola-anchor&quot; href=&quot;#finding-prospective-organizations&quot; aria-label=&quot;Anchor link for: finding-prospective-organizations&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
-&lt;&#x2F;h2&gt;
-&lt;p&gt;This is a step that a lot of people get stuck on. What organization should you contribute to? The best approach is to contribute to something you personally use. This gives you some insights on what the community might want and what the project needs.&lt;&#x2F;p&gt;
+
+&lt;blockquote class=&quot;callout tip has-title&quot;&gt;
+  
+  
+  &lt;p class=&quot;title&quot;&gt;
+    &lt;span class=&quot;icon&quot;&gt;
+      &lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;18&quot; height=&quot;18&quot;&gt;&lt;path d=&quot;M9.97308 18H11V13H13V18H14.0269C14.1589 16.7984 14.7721 15.8065 15.7676 14.7226C15.8797 14.6006 16.5988 13.8564 16.6841 13.7501C17.5318 12.6931 18 11.385 18 10C18 6.68629 15.3137 4 12 4C8.68629 4 6 6.68629 6 10C6 11.3843 6.46774 12.6917 7.31462 13.7484C7.40004 13.855 8.12081 14.6012 8.23154 14.7218C9.22766 15.8064 9.84103 16.7984 9.97308 18ZM10 20V21H14V20H10ZM5.75395 14.9992C4.65645 13.6297 4 11.8915 4 10C4 5.58172 7.58172 2 12 2C16.4183 2 20 5.58172 20 10C20 11.8925 19.3428 13.6315 18.2443 15.0014C17.624 15.7748 16 17 16 18.5V21C16 22.1046 15.1046 23 14 23H10C8.89543 23 8 22.1046 8 21V18.5C8 17 6.37458 15.7736 5.75395 14.9992Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;
+
+    &lt;&#x2F;span&gt;
+    &lt;strong&gt;Choosing Your Organization&lt;&#x2F;strong&gt;
+  &lt;&#x2F;p&gt;
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;p&gt;This is a step that a lot of people get stuck on. What organization should you contribute to? The best approach is to contribute to something you personally use. This gives you some insights on what the community might want and what the project needs.&lt;&#x2F;p&gt;
+
+  &lt;&#x2F;div&gt;
+  
+&lt;&#x2F;blockquote&gt;
+
 &lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.gsocorganizations.dev&#x2F;&quot;&gt;gsocorganizations.dev&lt;&#x2F;a&gt; is your best friend here. It&#x27;ll show you a list of every organization that has participated in GSoC since 2016, the number of accepted proposals per org. per year, previous projects and even roughly categorize organizations based on their domain.&lt;&#x2F;p&gt;
-&lt;p&gt;You&#x27;ll want to choose an organization that is accepting a reasonable amount of proposals for the number of projects they offer. If it seems low, try to find out why. Is the domain niche? Or is the organization looking for specific skillsets? There are some organizations that are looking only for Ph. Ds, or contributors based in a certain country. Some projects may require you to have extensive knowledge about and experience working in the associated field. Look at previous proposals, cold-email previous contributors and ask around in their community channels to find out about these hidden criteria.&lt;&#x2F;p&gt;
+&lt;p&gt;You&#x27;ll want to choose an organization that is accepting a reasonable amount of proposals for the number of projects they offer. If it seems low, try to find out why. Is the domain niche? Or is the organization looking for specific skillsets? Some organizations only accept Ph.D. holders, or contributors from certain regions. Some projects may require you to have extensive knowledge about and experience working in the associated field. Look at previous proposals, cold-email previous contributors and ask around in their community channels to find out about these hidden criteria.&lt;&#x2F;p&gt;
 &lt;p&gt;If you did not find a single organization whose projects&#x2F;products you use, you&#x27;ll have to find projects that seem interesting to you and&#x2F;or whose tech. stack you are familiar with. There&#x27;s a bunch of orgs. that are great for beginners such as &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.gsocorganizations.dev&#x2F;organization&#x2F;wikimedia-foundation&#x2F;&quot;&gt;Wikimedia&lt;&#x2F;a&gt; and &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.gsocorganizations.dev&#x2F;organization&#x2F;incf&#x2F;&quot;&gt;INCF&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 
 &lt;blockquote class=&quot;callout important has-title&quot;&gt;
@@ -44,18 +59,18 @@
     &lt;strong&gt;Avoid Organization Hopping&lt;&#x2F;strong&gt;
   &lt;&#x2F;p&gt;
   &lt;div class=&quot;content&quot;&gt;
-    &lt;p&gt;I&#x27;ve seen a lot of people being unable to stick to an organization because they get bored of the project afterawhile. Some start hopping around organizations: setting up projects, tinkering with the code for a few days and then giving up to move to another organization and another project. I believe this is because they were not motivated by the project itself. If you truly believe in the organization&#x27;s work and it&#x27;s impact, I don&#x27;t think you&#x27;ll run into this problem.&lt;&#x2F;p&gt;
+    &lt;p&gt;I&#x27;ve seen a lot of people being unable to stick to an organization because they get bored of the project after a while. Some start hopping around organizations: setting up projects, tinkering with the code for a few days and then giving up to move to another organization and another project. I believe this is because they were not motivated by the project itself. If you truly believe in the organization&#x27;s work and it&#x27;s impact, I don&#x27;t think you&#x27;ll run into this problem.&lt;&#x2F;p&gt;
 
   &lt;&#x2F;div&gt;
   
 &lt;&#x2F;blockquote&gt;
 
-&lt;h2 id=&quot;finding-suitable-projects&quot;&gt;Finding Suitable Projects&lt;a class=&quot;zola-anchor&quot; href=&quot;#finding-suitable-projects&quot; aria-label=&quot;Anchor link for: finding-suitable-projects&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
-&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;finding-suitable-projects&quot;&gt;Finding Suitable Projects&lt;a class=&quot;zola-anchor&quot; href=&quot;#finding-suitable-projects&quot; aria-label=&quot;Anchor link for: finding-suitable-projects&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
 &lt;p&gt;Finding a project in a specific organization is relatively straightforward. Most organizations will have a page for their projects, such as &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;wiki.linuxfoundation.org&#x2F;gsoc&#x2F;google-summer-code-2024&quot;&gt;this one&lt;&#x2F;a&gt; for the Linux Foundation. These should give you enough information about the project and what it entails. Some organizations may also allow you to submit your own project idea.&lt;&#x2F;p&gt;
-&lt;p&gt;GSoC is a pretty competitive program and if you&#x27;ve chosen a popular organization, chances are there will be other contributors applying to the same project as you. Sometimes, organizations make this obvious by asking every potential contributor to identify themselves in some way. For example, for the linux kernel, patches by contributors are usually sent prefixed with the &lt;code&gt;[GSOC]&lt;&#x2F;code&gt; tag. This can help you size up the competition. Ideally, you want to stand out in the community so that your proposal also stands out. I believe this is a pretty underrated tip. Every previous contributor I knew were already on good terms with the mentors and had multiple commits in the project before they began writing their proposal.&lt;&#x2F;p&gt;
+&lt;p&gt;GSoC is a pretty competitive program and if you&#x27;ve chosen a popular organization, chances are there will be other contributors applying to the same project as you. Sometimes, organizations make this obvious by asking every potential contributor to identify themselves in some way. For example, for the linux kernel, patches by contributors are usually sent prefixed with the &lt;code&gt;[GSOC]&lt;&#x2F;code&gt; tag. This can help you size up the competition. Ideally, you want to stand out in the community so that your proposal also stands out. I believe this is a pretty underrated tip. Every previous contributor I knew were on good terms with the mentors and had multiple commits in the project before they began writing their proposal. If you see that there are already many likely applicants with a strong background in the project, you might want to reconsider your choice of project.&lt;&#x2F;p&gt;
 &lt;p&gt;I got pretty lucky here. When I went through the Linux Foundation&#x27;s projects, I saw that &lt;code&gt;kworkflow&lt;&#x2F;code&gt; had a project that wanted Rust skills as well as experience with kernel development. These two just so happened to be my primary interests back then and it seemed to be a pretty niche project without a lot of competition.&lt;&#x2F;p&gt;
-&lt;p&gt;In short, make sure you pick a project where you can stand out.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;In short, make sure you pick a project where you can stand out.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;pre-proposal-submission&quot;&gt;Pre-proposal Submission&lt;a class=&quot;zola-anchor&quot; href=&quot;#pre-proposal-submission&quot; aria-label=&quot;Anchor link for: pre-proposal-submission&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
 &lt;&#x2F;h1&gt;
 &lt;p&gt;I&#x27;ve had a bit of experience with open source before GSoC, so I wasn&#x27;t daunted by the idea of contributing. There are plenty of great guides on how you can get started with open source and I definitely recommend you read up about it beforehand. There are a few small things that make the maintainer&#x27;s life easier such as writing good commit messages, explaining your PRs and following language conventions.&lt;&#x2F;p&gt;
@@ -63,12 +78,14 @@
 &lt;h1 id=&quot;the-proposal&quot;&gt;The Proposal&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-proposal&quot; aria-label=&quot;Anchor link for: the-proposal&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
 &lt;&#x2F;h1&gt;
 &lt;p&gt;Again, I was lucky enough to be a part of a club that had given me plenty of opportunities to write formal documents and casual essays, from rulebooks to magazines.&lt;&#x2F;p&gt;
-&lt;p&gt;I first came up with the structure for my proposal. The main elements being the table of contents, the synopsis, prerequisities and bio (as mandated by the Linux Foundation), objectives, proposed changes and timeline. I included a section title &quot;Motivation&quot; as well, to explain why I believe the changes are necessary.&lt;&#x2F;p&gt;
+&lt;p&gt;I first came up with the structure for my proposal. The main elements being the table of contents, the synopsis, prerequisites and bio (as mandated by the Linux Foundation), objectives, proposed changes and timeline. I included a section titled &quot;Motivation&quot; as well, to explain why I believe the changes are necessary.&lt;&#x2F;p&gt;
 &lt;p&gt;Then I jot down every problem I encountered as I navigated the codebase, compiled them into categories and found the primary problems. For &lt;code&gt;patch-hub&lt;&#x2F;code&gt;, the primary problem was a Model that slowly became a &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;God_object&quot;&gt;god-object&lt;&#x2F;a&gt;. A few days of research and prototyping later, I came up with the idea of extending the current MVC architecture to an MVVM approach.&lt;&#x2F;p&gt;
 &lt;p&gt;A rule I followed throughout the proposal was to never assume the reader knows anything more than what was previously discussed and what is obvious from the project. This meant some pages would have a dozen links and footnotes to elaborate.&lt;&#x2F;p&gt;
-&lt;p&gt;I had also looked through proposals available on the internet to see what the standard usually was. And sent mine to be reviewed by my seniors at the club.&lt;&#x2F;p&gt;
+&lt;p&gt;I had also looked through proposals available on the internet to see what the standard usually was. And sent mine to be reviewed by my seniors at the club as well as by the project&#x27;s mentor. Make sure you get your proposal reviewed by the project&#x27;s mentor (if applicable to your organization) well in-advance.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;post-acceptance&quot;&gt;Post-acceptance&lt;a class=&quot;zola-anchor&quot; href=&quot;#post-acceptance&quot; aria-label=&quot;Anchor link for: post-acceptance&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
 &lt;&#x2F;h1&gt;
+&lt;p&gt;The technical aspect of my project needed a lot more research to ensure it was sound and I spent most of my community-bonding period trying to prototype a working development cycle. I&#x27;ve refactored many projects in the past before, but I always stuck to the &quot;big bang&quot; approach: wipe everything and start from scratch, copying old source as and when required. This time around, I wanted to integrate the architecture shift commit-by-commit without breaking compilation.&lt;&#x2F;p&gt;
+&lt;p&gt;The best part about GSoC is undoubtedly the access to feedback from a seasoned mentor. I had a wonderful mentor, &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;davidbtadokoro.tech&#x2F;&quot;&gt;David&lt;&#x2F;a&gt;, from whom I got to learn about communicating, working together in open source and of course, writing code for an open source project. We had meetings every now and then to review my progress, where I got to ask him all the questions and doubts I had about my approach and my code. David made this project a completely stress-free and I am very grateful for his patience and consideration throughout. I hope to continue working with him on &lt;code&gt;patch-hub&lt;&#x2F;code&gt;!&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;more-about-patch-hub&quot;&gt;More About &lt;code&gt;patch-hub&lt;&#x2F;code&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#more-about-patch-hub&quot; aria-label=&quot;Anchor link for: more-about-patch-hub&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
 &lt;&#x2F;h1&gt;
 &lt;p&gt;There still remains about a third of the proposal left to complete and I hope to complete it before the end of this year. My final year at college has proved to somehow be the easiest as well as the most hectic so far, and I feel totally out of control of my own schedule. When I do complete the proposal, I will be updating this post with links to more content about my work for &lt;code&gt;patch-hub&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;

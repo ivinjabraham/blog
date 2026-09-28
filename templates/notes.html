@@ -25,7 +25,7 @@
       </h2>
       <div class="notes-day-entries">
         {% for note in day_notes %}
-        <article class="note-entry" id="note-{{ note.slug }}" aria-label="{{ note.title }}">
+        <article class="note-entry" id="note-{{ note.slug }}" aria-label="Note from {{ note.date | date(format='%d %B %Y at %H:%M') }}">
           <time class="note-date" datetime="{{ note.date }}">{{ note.date | date(format="%H:%M") }}</time>
           <div class="prose">{{ note.content | safe }}</div>
         </article>

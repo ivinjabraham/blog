@@ -1,5 +1,4 @@
 +++
-title = "A first note"
 date = 2026-09-29T09:00:00+05:30
 draft = true
 include_in_feeds = false

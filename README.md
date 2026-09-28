@@ -19,6 +19,17 @@ publish. The timeline shows ten notes per page, grouped by date. Individual
 note URLs redirect to their position in the timeline instead of showing a
 standalone article.
 
+Notes do not need titles. Use a unique filename, a date, and your text:
+
+```markdown
++++
+date = 2026-09-29T09:00:00+05:30
+include_in_feeds = false
++++
+
+A passing thought.
+```
+
 The notes section uses the minimal logbook layout in `templates/notes.html`,
 styled by `static/notes.css`.
 

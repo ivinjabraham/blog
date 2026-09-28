@@ -1,7 +1,5 @@
 +++
-date = 2026-09-29T09:00:00+05:30
-draft = true
-include_in_feeds = false
+date = 2026-09-29T02:36:00+05:30
 +++
 
-A small thought goes here. Markdown works too: **bold**, *italics*, and [links](https://example.com).
+I saw the angel in the marble and carved until I set him free.

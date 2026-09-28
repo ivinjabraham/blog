@@ -1,4 +1,4 @@
-# serene v5.6.3
+# serene v6.0.0
 #
 # - docs: https://github.com/isunjn/serene/blob/latest/USAGE.md
 # - check for updates: https://github.com/isunjn/serene/releases
@@ -40,13 +40,22 @@ anchors = "on"
 
 [extra]
 
-sections = [
-  { name = "posts", path = "/posts", is_external = false },
+name = "Ivin Joel Abraham"
+handle = "ivin"
+bio = "boulders"
+links = [
+    { name = "GitHub", icon = "github", url = "https://github.com/ivinjabraham" },
+    { name = "Email", icon = "email", url = "mailto:me@ivinjoelabraham.com" },
+]
+
+
+nav = [
+  { name = "posts", path = "/posts" },
 ]
 blog_section_path = "/posts"
 
 back_link_text = "Back" # Text of the back button
-force_theme = false # false | "light" | "dark"
+color_scheme = "auto" # "auto" | "light" | "dark"
 
 footer_copyright = "© 2025 ivin joel abraham"
 footer_credits = true # Whether to show "Built with zola and serene" in footer

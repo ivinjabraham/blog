@@ -31,9 +31,10 @@ I rarely see the final point being mentioned online but I believe it can be the 
 
 We started looking for prospective organizations as early as October. It is important to get familiar with the project as well as the community as soon as possible, especially for complex projects. As our club has a history of contributing to Wikimedia, that was the primary focus for most of the members. I, however, was eager to contribute to the domain I was learning at the time—linux kernel development. The Linux Foundation was the obvious choice.
 
-{% tip(title="Choosing Your Organization") %}
-This is a step that a lot of people get stuck on. What organization should you contribute to? The best approach is to contribute to something you personally use. This gives you some insights on what the community might want and what the project needs.
-{% end %}
+> [!TIP]
+> **Choosing Your Organization**
+>
+> This is a step that a lot of people get stuck on. What organization should you contribute to? The best approach is to contribute to something you personally use. This gives you some insights on what the community might want and what the project needs.
 
 [gsocorganizations.dev](https://www.gsocorganizations.dev/) is your best friend here. It'll show you a list of every organization that has participated in GSoC since 2016, the number of accepted proposals per org. per year, previous projects and even roughly categorize organizations based on their domain.
 
@@ -41,9 +42,10 @@ You'll want to choose an organization that is accepting a reasonable amount of p
 
 If you did not find a single organization whose projects/products you use, you'll have to find projects that seem interesting to you and/or whose tech. stack you are familiar with. There's a bunch of orgs. that are great for beginners such as [Wikimedia](https://www.gsocorganizations.dev/organization/wikimedia-foundation/) and [INCF](https://www.gsocorganizations.dev/organization/incf/).
 
-{% important(title="Avoid Organization Hopping") %}
-I've seen a lot of people being unable to stick to an organization because they get bored of the project after a while. Some start hopping around organizations: setting up projects, tinkering with the code for a few days and then giving up to move to another organization and another project. I believe this is because they were not motivated by the project itself. If you truly believe in the organization's work and it's impact, I don't think you'll run into this problem.
-{% end %}
+> [!IMPORTANT]
+> **Avoid Organization Hopping**
+>
+> I've seen a lot of people being unable to stick to an organization because they get bored of the project after a while. Some start hopping around organizations: setting up projects, tinkering with the code for a few days and then giving up to move to another organization and another project. I believe this is because they were not motivated by the project itself. If you truly believe in the organization's work and it's impact, I don't think you'll run into this problem.
 
 # Finding Suitable Projects
 

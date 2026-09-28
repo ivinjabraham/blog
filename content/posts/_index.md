@@ -2,7 +2,7 @@
 title = "blog"
 description = "things i wrote."
 sort_by = "date"
-template = "blog.html"
+template = "posts.html"
 page_template = "post.html"
 insert_anchor_links = "right"
 generate_feeds = true
@@ -18,11 +18,11 @@ categorized = true
 back_to_top = true
 toc = true
 comment = false
-copy = true # copy button on code blocks
+code_copy = true # copy button on code blocks
 
-outdate_alert = false
-outdate_alert_days = 12
-outdate_alert_text_before = "This article was last updated "
-outdate_alert_text_after = " days ago and may be out of date."
+outdated_alert = false
+outdated_alert_days = 12
+outdated_alert_text_before = "This article was last updated "
+outdated_alert_text_after = " days ago and may be out of date."
 +++
 

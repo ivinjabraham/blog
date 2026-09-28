@@ -51,6 +51,7 @@ links = [
 
 nav = [
   { name = "posts", path = "/posts" },
+  { name = "notes", path = "/notes" },
 ]
 blog_section_path = "/posts"
 

@@ -11,7 +11,7 @@ generate_feeds = true
 lang = "en"
 
 title = "Posts"
-subtitle = "a complete list of all of my musings."
+subtitle = "twitlonger"
 date_format = "%b %-d, %Y"
 
 categorized = true

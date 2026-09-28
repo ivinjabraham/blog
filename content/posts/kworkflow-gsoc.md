@@ -8,7 +8,7 @@ categories = ["patch-hub"]
 tags = ["open-source", "google-summer-of-code"]
 
 [extra]
-featured = true
+featured = false
 +++
 
 On the ninth of May, earlier this year, [my proposal](/gsoc-proposal.pdf) to the Linux Foundation for Google Summer of Code got accepted. This post covers what I did before and after I got accepted, my thoughts about the program and tips for future contributors.

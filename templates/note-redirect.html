@@ -1,0 +1,23 @@
+{%- set notes = get_section(path="notes/_index.md") -%}
+{%- for note in notes.pages -%}
+{%- if note.permalink == page.permalink -%}
+{%- set page_number = ((loop.index0 / notes.paginate_by) | round(method="floor") | int) + 1 -%}
+{%- set target = notes.permalink -%}
+{%- if page_number > 1 -%}
+{%- set target = notes.permalink ~ "page/" ~ page_number ~ "/" -%}
+{%- endif -%}
+{%- set target = target ~ "#note-" ~ page.slug -%}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0;url={{ target }}">
+  <link rel="canonical" href="{{ target }}">
+  <title>Notes</title>
+</head>
+<body><a href="{{ target }}">Continue to notes</a></body>
+</html>
+{%- endif -%}
+{%- endfor -%}

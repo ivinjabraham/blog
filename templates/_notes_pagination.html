@@ -1,0 +1,15 @@
+{% if paginator.number_pagers > 1 %}
+<nav class="notes-pagination" aria-label="Notes pagination">
+  {% if paginator.previous %}
+  <a href="{{ paginator.previous }}" rel="prev">← Back</a>
+  {% else %}
+  <span aria-disabled="true">← Back</span>
+  {% endif %}
+  <span class="notes-page-count">Page {{ paginator.current_index }} of {{ paginator.number_pagers }}</span>
+  {% if paginator.next %}
+  <a href="{{ paginator.next }}" rel="next">Next →</a>
+  {% else %}
+  <span aria-disabled="true">Next →</span>
+  {% endif %}
+</nav>
+{% endif %}

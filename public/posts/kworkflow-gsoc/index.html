@@ -20,7 +20,7 @@
 
 
 <meta property="article:published_time" content="2025-08-28">
-<meta property="article:modified_time" content="2025-09-06">
+<meta property="article:modified_time" content="2026-09-29">
 <meta property="article:tag" content="open-source">
 <meta property="article:tag" content="google-summer-of-code">
 
@@ -142,17 +142,12 @@
       <ul>
         
         <li>
-          <a class="h2" href="#amfoss">amFOSS</a>
-          
-        </li>
-        
-        <li>
           <a class="h2" href="#finding-prospective-organizations">Finding Prospective Organizations</a>
           
         </li>
         
         <li>
-          <a class="h2" href="#finding-suitable-projects">Finding Suitable Projects</a>
+          <a class="h2" href="#finding-a-suitable-project">Finding a suitable project</a>
           
         </li>
         
@@ -168,11 +163,6 @@
         
         <li>
           <a class="h2" href="#post-acceptance">Post-acceptance</a>
-          
-        </li>
-        
-        <li>
-          <a class="h2" href="#more-about-patch-hub">More About patch-hub</a>
           
         </li>
         
@@ -211,7 +201,7 @@
         <div id="post-info">
           <div id="date">
             <span id="publish">Aug 28, 2025</span>
-            <span>Updated on <span id="updated">Sep 6, 2025</span></span>
+            <span>Updated on <span id="updated">Sep 29, 2026</span></span>
             </div>
 
           
@@ -226,55 +216,32 @@
 
         
 
-        <p>On the ninth of May, earlier this year, <a href="/gsoc-proposal.pdf">my proposal</a> to the Linux Foundation for Google Summer of Code got accepted. This post covers what I did before and after I got accepted, my thoughts about the program and tips for future contributors.</p>
-<h1 id="amfoss">amFOSS<a class="zola-anchor" href="#amfoss" aria-label="Anchor link for: amfoss" style="visibility: hidden;"></a>
-</h1>
-<p>What helped me the most was being a part of a Free and Open Source Software club called <a rel="nofollow noreferrer external" href="https://amfoss.in/">amFOSS</a> at my university<sup class="footnote-reference"><a href="#1">1</a></sup>. Members of our club have been contributing and mentoring in GSoC for every year, for the past 16 or so years. So I was more than familiar with what GSoC was, how people applied and how to get started. Going forward, note that when I say "we", I'm likely referring to the members in the club.</p>
-<p>Since I joined the club in my first semester, I've heard the stories of all the previous contributors and mentors. I learnt that to get accepted, you need:</p>
+        <p>On the ninth of May, earlier this year, <a href="/gsoc-proposal.pdf">my proposal</a> to the Linux Foundation for Google Summer of Code was accepted. This post covers how I selected the project, built my proposal and approached the work after acceptance.</p>
+<p>I was already familiar with Google Summer of Code through <a rel="nofollow noreferrer external" href="https://www.amfoss.in">amfoss</a>, my university's open-source community, which has had several contributors and mentors participate across the years. From talking to them, I thought that three things consistently seemed to matter:</p>
 <blockquote>
 <p>a. A strong proposal</p>
 <p>b. Previous contributions for credibility</p>
 <p>c. A suitable project</p>
 </blockquote>
-<p>I rarely see the final point being mentioned online but I believe it can be the most important factor for getting accepted. More on that later.</p>
 <h1 id="finding-prospective-organizations">Finding Prospective Organizations<a class="zola-anchor" href="#finding-prospective-organizations" aria-label="Anchor link for: finding-prospective-organizations" style="visibility: hidden;"></a>
 </h1>
-<p>We started looking for prospective organizations as early as October. It is important to get familiar with the project as well as the community as soon as possible, especially for complex projects. As our club has a history of contributing to Wikimedia, that was the primary focus for most of the members. I, however, was eager to contribute to the domain I was learning at the time—linux kernel development. The Linux Foundation was the obvious choice.</p>
-<blockquote class="markdown-alert-tip">
-<p><strong>Choosing Your Organization</strong></p>
-<p>This is a step that a lot of people get stuck on. What organization should you contribute to? The best approach is to contribute to something you personally use. This gives you some insights on what the community might want and what the project needs.</p>
-</blockquote>
-<p><a rel="nofollow noreferrer external" href="https://www.gsocorganizations.dev/">gsocorganizations.dev</a> is your best friend here. It'll show you a list of every organization that has participated in GSoC since 2016, the number of accepted proposals per org. per year, previous projects and even roughly categorize organizations based on their domain.</p>
-<p>You'll want to choose an organization that is accepting a reasonable amount of proposals for the number of projects they offer. If it seems low, try to find out why. Is the domain niche? Or is the organization looking for specific skillsets? Some organizations only accept Ph.D. holders, or contributors from certain regions. Some projects may require you to have extensive knowledge about and experience working in the associated field. Look at previous proposals, cold-email previous contributors and ask around in their community channels to find out about these hidden criteria.</p>
-<p>If you did not find a single organization whose projects/products you use, you'll have to find projects that seem interesting to you and/or whose tech. stack you are familiar with. There's a bunch of orgs. that are great for beginners such as <a rel="nofollow noreferrer external" href="https://www.gsocorganizations.dev/organization/wikimedia-foundation/">Wikimedia</a> and <a rel="nofollow noreferrer external" href="https://www.gsocorganizations.dev/organization/incf/">INCF</a>.</p>
-<blockquote class="markdown-alert-important">
-<p><strong>Avoid Organization Hopping</strong></p>
-<p>I've seen a lot of people being unable to stick to an organization because they get bored of the project after a while. Some start hopping around organizations: setting up projects, tinkering with the code for a few days and then giving up to move to another organization and another project. I believe this is because they were not motivated by the project itself. If you truly believe in the organization's work and it's impact, I don't think you'll run into this problem.</p>
-</blockquote>
-<h1 id="finding-suitable-projects">Finding Suitable Projects<a class="zola-anchor" href="#finding-suitable-projects" aria-label="Anchor link for: finding-suitable-projects" style="visibility: hidden;"></a>
+<p>I started looking for prospective organizations around October. <a rel="nofollow noreferrer external" href="https://www.gsocorganizations.dev/">gsocorganizations.dev</a> was my best friend here. It shows a list of every organization that has participated in GSoC since 2016, the number of accepted proposals per org. per year, previous projects and even roughly categorize organizations based on their domain.</p>
+<p>I was, however, eager to contribute to the domain I was learning at the time—linux kernel development. The Linux Foundation was the obvious choice.</p>
+<h1 id="finding-a-suitable-project">Finding a suitable project<a class="zola-anchor" href="#finding-a-suitable-project" aria-label="Anchor link for: finding-a-suitable-project" style="visibility: hidden;"></a>
 </h1>
-<p>Finding a project in a specific organization is relatively straightforward. Most organizations will have a page for their projects, such as <a rel="nofollow noreferrer external" href="https://wiki.linuxfoundation.org/gsoc/google-summer-code-2024">this one</a> for the Linux Foundation. These should give you enough information about the project and what it entails. Some organizations may also allow you to submit your own project idea.</p>
-<p>GSoC is a pretty competitive program and if you've chosen a popular organization, chances are there will be other contributors applying to the same project as you. Sometimes, organizations make this obvious by asking every potential contributor to identify themselves in some way. For example, for the linux kernel, patches by contributors are usually sent prefixed with the <code>[GSOC]</code> tag. This can help you size up the competition. Ideally, you want to stand out in the community so that your proposal also stands out. I believe this is a pretty underrated tip. Every previous contributor I knew were on good terms with the mentors and had multiple commits in the project before they began writing their proposal. If you see that there are already many likely applicants with a strong background in the project, you might want to reconsider your choice of project.</p>
-<p>I got pretty lucky here. When I went through the Linux Foundation's projects, I saw that <code>kworkflow</code> had a project that wanted Rust skills as well as experience with kernel development. These two just so happened to be my primary interests back then and it seemed to be a pretty niche project without a lot of competition.</p>
-<p><strong>In short, make sure you pick a project where you can stand out.</strong></p>
+<p>I got pretty lucky here. When I went through the Linux Foundation's projects, I saw that <code>kworkflow</code> had a project that wanted Rust skills as well as experience with kernel development. These two just so happened to be my primary interests back then and the project also seemed fairly niche.</p>
 <h1 id="pre-proposal-submission">Pre-proposal Submission<a class="zola-anchor" href="#pre-proposal-submission" aria-label="Anchor link for: pre-proposal-submission" style="visibility: hidden;"></a>
 </h1>
-<p>I've had a bit of experience with open source before GSoC, so I wasn't daunted by the idea of contributing. There are plenty of great guides on how you can get started with open source and I definitely recommend you read up about it beforehand. There are a few small things that make the maintainer's life easier such as writing good commit messages, explaining your PRs and following language conventions.</p>
-<p>For <code>patch-hub</code>, I had around 14 PRs merged before I even wrote my proposal. They weren't significant changes by any means, but I tinkered with many different corners of the project until I knew the codebase and it's flaws well. As my project was about refactoring the codebase to fix aging architectural problems, these minor contributions helped me get a feel for what needs to be done.</p>
+<p>I've had a bit of experience with open source before GSoC, so I wasn't daunted by the idea of contributing. For <code>patch-hub</code>, I had around 14 PRs merged before I even wrote my proposal. They weren't significant changes by any means, but I tinkered with many different corners of the project until I knew the codebase and it's flaws well. As my project was about refactoring the codebase to fix aging architectural problems, these minor contributions helped me get a feel for what needs to be done.</p>
 <h1 id="the-proposal">The Proposal<a class="zola-anchor" href="#the-proposal" aria-label="Anchor link for: the-proposal" style="visibility: hidden;"></a>
 </h1>
-<p>Again, I was lucky enough to be a part of a club that had given me plenty of opportunities to write formal documents and casual essays, from rulebooks to magazines.</p>
 <p>I first came up with the structure for my proposal. The main elements being the table of contents, the synopsis, prerequisites and bio (as mandated by the Linux Foundation), objectives, proposed changes and timeline. I included a section titled "Motivation" as well, to explain why I believe the changes are necessary.</p>
-<p>Then I jot down every problem I encountered as I navigated the codebase, compiled them into categories and found the primary problems. For <code>patch-hub</code>, the primary problem was a Model that slowly became a <a rel="nofollow noreferrer external" href="https://en.wikipedia.org/wiki/God_object">god-object</a>. A few days of research and prototyping later, I came up with the idea of extending the current MVC architecture to an MVVM approach.</p>
-<p>A rule I followed throughout the proposal was to never assume the reader knows anything more than what was previously discussed and what is obvious from the project. This meant some pages would have a dozen links and footnotes to elaborate.</p>
-<p>I had also looked through proposals available on the internet to see what the standard usually was. And sent mine to be reviewed by my seniors at the club as well as by the project's mentor. Make sure you get your proposal reviewed by the project's mentor (if applicable to your organization) well in-advance.</p>
+<p>Then I jotted down every problem I encountered as I navigated the codebase, compiled them into categories and found the primary problems. For <code>patch-hub</code>, the primary problem was a Model that slowly became a <a rel="nofollow noreferrer external" href="https://en.wikipedia.org/wiki/God_object">god-object</a>. A few days of research and prototyping later, I came up with the idea of extending the current MVC architecture to an MVVM approach.</p>
+<p>I tried to never assume the reader knows anything more than what was previously discussed and what is obvious from the project. This meant some pages would have a dozen links and footnotes to elaborate. I had also looked through proposals available on the internet to see what the standard usually was. And sent mine to be reviewed by my seniors at amFOSS and the project's mentor.</p>
 <h1 id="post-acceptance">Post-acceptance<a class="zola-anchor" href="#post-acceptance" aria-label="Anchor link for: post-acceptance" style="visibility: hidden;"></a>
 </h1>
-<p>The technical aspect of my project needed a lot more research to ensure it was sound and I spent most of my community-bonding period trying to prototype a working development cycle. I've refactored many projects in the past before, but I always stuck to the "big bang" approach: wipe everything and start from scratch, copying old source as and when required. This time around, I wanted to integrate the architecture shift commit-by-commit without breaking compilation.</p>
-<p>The best part about GSoC is undoubtedly the access to feedback from a seasoned mentor. I had a wonderful mentor, <a rel="nofollow noreferrer external" href="https://davidbtadokoro.tech/">David</a>, from whom I got to learn about communicating, working together in open source and of course, writing code for an open source project. We had meetings every now and then to review my progress, where I got to ask him all the questions and doubts I had about my approach and my code. David made this project a completely stress-free and I am very grateful for his patience and consideration throughout. I hope to continue working with him on <code>patch-hub</code>!</p>
-<h1 id="more-about-patch-hub">More About <code>patch-hub</code><a class="zola-anchor" href="#more-about-patch-hub" aria-label="Anchor link for: more-about-patch-hub" style="visibility: hidden;"></a>
-</h1>
-<p>There still remains about a third of the proposal left to complete and I hope to complete it before the end of this year. My final year at college has proved to somehow be the easiest as well as the most hectic so far, and I feel totally out of control of my own schedule. When I do complete the proposal, I will be updating this post with links to more content about my work for <code>patch-hub</code>.</p>
+<p>The technical aspect of my project needed a lot more research to ensure it was sound and I spent most of my community-bonding period trying to prototype a working development cycle. I've refactored many projects in the past before, but I mostly stuck to the "big bang" approach: wipe everything and start from scratch, copying old source as and when required. This time around, I wanted to integrate the architecture shift commit-by-commit without breaking compilation.</p>
+<p>The best part about GSoC is undoubtedly the access to feedback from a seasoned mentor. I had a wonderful mentor, <a rel="nofollow noreferrer external" href="https://davidbtadokoro.tech/">David</a>, from whom I got to learn about communicating, working together in open source and of course, writing code for an open source project. We had meetings every now and then to review my progress, where I got to ask him all the questions and doubts I had about my approach and my code.</p>
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
 <p>You have to be a student at our university to be a part of amFOSS but that might change in the future.</p>
 </div>

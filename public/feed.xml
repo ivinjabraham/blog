@@ -5,9 +5,19 @@
 	<link rel="self" type="application/atom+xml" href="https://blog.ivinjoelabraham.com/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://blog.ivinjoelabraham.com"/>
   
-	<updated>2026-09-29T21:54:00+05:30</updated>
+	<updated>2026-10-04T22:13:00+05:30</updated>
 	
 	<id>https://blog.ivinjoelabraham.com/feed.xml</id>
+	<entry xml:lang="en">
+		<title></title>
+		<published>2026-10-04T22:13:00+05:30</published>
+		<updated>2026-10-04T22:13:00+05:30</updated>
+		<link rel="alternate" type="text/html" href="https://blog.ivinjoelabraham.com/notes/004/"/>
+		<id>https://blog.ivinjoelabraham.com/notes/004/</id>
+    
+		<content type="html" xml:base="https://blog.ivinjoelabraham.com/notes/004/">&lt;p&gt;&lt;a rel=&quot;nofollow noreferrer external&quot; href=&quot;https://www.youtube.com/watch?v=U11t9lFZtSE&quot;&gt;golden light.&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title></title>
 		<published>2026-09-29T21:54:00+05:30</published>

@@ -5,9 +5,33 @@
 	<link rel="self" type="application/atom+xml" href="https://blog.ivinjoelabraham.com/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://blog.ivinjoelabraham.com"/>
   
-	<updated>2026-10-04T22:13:00+05:30</updated>
+	<updated>2026-10-07T09:23:00+05:30</updated>
 	
 	<id>https://blog.ivinjoelabraham.com/feed.xml</id>
+	<entry xml:lang="en">
+		<title></title>
+		<published>2026-10-07T09:23:00+05:30</published>
+		<updated>2026-10-07T09:23:00+05:30</updated>
+		<link rel="alternate" type="text/html" href="https://blog.ivinjoelabraham.com/notes/005/"/>
+		<id>https://blog.ivinjoelabraham.com/notes/005/</id>
+    
+		<content type="html" xml:base="https://blog.ivinjoelabraham.com/notes/005/">&lt;p&gt;pewdiepie becoming an open-source project maintainer is further proof of this legendary quote:&lt;/p&gt;
+&lt;blockquote class=&quot;quote&quot;&gt;
+&lt;div class=&quot;icon&quot; style=&quot;display: none;&quot;&gt;&lt;svg fill=&quot;currentColor&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;  width=&quot;10&quot; height=&quot;10&quot; viewBox=&quot;796 698 200 200&quot;&gt;
+&lt;g&gt;
+	&lt;path d=&quot;M885.208,749.739v-40.948C836.019,708.791,796,748.81,796,798v89.209h89.208V798h-48.26
+		C836.948,771.39,858.598,749.739,885.208,749.739z&quot;/&gt;
+	&lt;path d=&quot;M996,749.739v-40.948c-49.19,0-89.209,40.019-89.209,89.209v89.209H996V798h-48.26
+		C947.74,771.39,969.39,749.739,996,749.739z&quot;/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;&lt;/div&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;p&gt;On Windows, after a few weeks, you&#39;re just addicted to Fortnite. On Linux, you might have just set up your dvd drive.&lt;/p&gt;
+&lt;/div&gt;&lt;div class=&quot;from&quot;&gt;
+&lt;p&gt;— &lt;a rel=&quot;nofollow noreferrer external&quot; href=&quot;https://www.youtube.com/watch?v=lE4UXdJSJM4&quot;&gt;Interview with a GNU/Linux user&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title></title>
 		<published>2026-10-04T22:13:00+05:30</published>

@@ -8,7 +8,7 @@ footer = true
 
 
 recent = true
-recent_max = 5
+recent_max = 1
 recent_more_text = "more »"
 date_format = "%b %-d, %Y"
 +++
@@ -26,4 +26,3 @@ I don't much care where.
 
 > Oh, you're sure to do that, if only you walk long enough.”
 {% </quote> %}
-

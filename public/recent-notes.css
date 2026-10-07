@@ -3,19 +3,26 @@
   padding-top: 1.5rem;
   border-top: 1px solid color-mix(in srgb, var(--text-decoration-color) 35%, transparent);
 }
-.recent-note { margin-bottom: 1.5rem; }
-.recent-note time {
+.recent-note { margin-bottom: 1.5rem; overflow-wrap: anywhere; }
+.recent-note-date {
   display: block;
   margin-bottom: 0.4rem;
   color: var(--text-pale-color);
   font: 400 0.7rem/1.75 var(--code-font);
-}
-.recent-note a {
-  color: var(--text-color);
   text-decoration: none;
-  overflow-wrap: anywhere;
 }
-.recent-note a:hover { text-decoration: underline; text-underline-offset: 0.2em; }
+.recent-note-date:hover { text-decoration: underline; text-underline-offset: 0.2em; }
+.recent-note .prose > :first-child { margin-top: 0; }
+.recent-note .prose > :last-child { margin-bottom: 0; }
+.recent-note .prose a {
+  color: var(--text-color);
+  text-decoration-color: var(--text-decoration-color);
+  text-underline-offset: 0.2em;
+}
+.recent-note .prose a:hover {
+  background: color-mix(in srgb, var(--text-color) 3%, var(--bg-color));
+  text-decoration-color: var(--text-color);
+}
 .recent-notes-more { color: var(--text-pale-color); font-size: 0.8em; }
 .recent-notes-empty { color: var(--text-pale-color); font-size: 0.9em; }
 .recent-notes a:focus-visible { outline: 2px solid var(--text-color); outline-offset: 4px; }

@@ -95,7 +95,7 @@
     </section>
     {% if section.extra.recent %}
     {% set notes = get_section(path="notes/_index.md") %}
-    <section class="recent-notes" aria-label="Latest notes">
+    <section class="recent-notes" aria-label="Latest note">
       {% for note in notes.pages[:section.extra.recent_max] %}
       {% set page_number = ((loop.index0 / notes.paginate_by) | round(method="floor") | int) + 1 %}
       {% set target = notes.permalink %}
@@ -103,8 +103,10 @@
       {% set target = notes.permalink ~ "page/" ~ page_number ~ "/" %}
       {% endif %}
       <article class="recent-note">
-        <time datetime="{{ note.date }}">{{ note.date | date(format="%d %b %Y") | replace(from="Sep", to="Sept") }} · {{ note.date | date(format="%H:%M") }}</time>
-        <a href="{{ target }}#note-{{ note.slug }}">{{ note.content | striptags | truncate(length=240) }}</a>
+        <a class="recent-note-date" href="{{ target }}#note-{{ note.slug }}" aria-label="View note from {{ note.date | date(format='%d %B %Y at %H:%M') }}">
+          <time datetime="{{ note.date }}">{{ note.date | date(format="%d %b %Y") | replace(from="Sep", to="Sept") }} · {{ note.date | date(format="%H:%M") }}</time>
+        </a>
+        <div class="prose">{{ note.content | safe }}</div>
       </article>
       {% else %}
       <p class="recent-notes-empty">No notes yet.</p>
